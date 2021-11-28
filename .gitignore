@@ -1,3 +1,4 @@
+# Elixir
 /_build
 /cover
 /deps
@@ -8,3 +9,20 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+
+# Phoenix
+/node_modules/
+/tmp/
+/assets/node_modules/
+
+/installer/_build/
+/installer/assets/
+/installer/deps/
+/installer/doc/
+/installer/phx_new-*.ez
+
+/integration_test/_build/
+/integration_test/deps/
+
+erl_crash.dump
+phoenix-*.ez
