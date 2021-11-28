@@ -11,7 +11,10 @@ import Config
 # before starting your production server.
 config :uswidi, UswidiWeb.Endpoint,
   url: [host: "example.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  cache_static_manifest: "priv/static/cache_manifest.json",
+  server: true
+
+config :uswidi, Uswidi.Repo, pool_size: 2
 
 # Do not print debug messages in production
 config :logger, level: :info
