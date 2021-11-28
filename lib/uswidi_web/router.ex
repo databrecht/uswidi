@@ -21,6 +21,10 @@ defmodule UswidiWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    get "/candy", CandyController, :index
+    live "/thermostat", ThermostatLive
+
   end
 
   # Other scopes may use custom stacks.

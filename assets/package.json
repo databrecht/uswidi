@@ -8,5 +8,12 @@
     "deploy": "cd .. && mix assets.deploy && rm -f _build/esbuild"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "stimulus": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  }
 }

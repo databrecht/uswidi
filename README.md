@@ -18,3 +18,10 @@ Only once you need to configure your/a SSH key.
 Then you can run:
 
 ```gigalixir ps:migrate```
+
+
+## Adding images
+We expect images to be png so conver them with:
+```mogrify -format png *.jpg```
+```mogrify -format png *.jpeg```
+Then add them to priv/static/images
